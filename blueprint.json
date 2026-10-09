@@ -1,0 +1,16 @@
+{
+  "landingPage": "/wp-admin/plugins.php",
+  "login": true,
+  "steps": [
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "url",
+        "url": "https://github.com/cloudcusp/mailer/releases/download/version-1.4.6/experience_version_cloudcusp-mailer.zip"
+      },
+      "options": {
+        "activate": true
+      }
+    }
+  ]
+}
